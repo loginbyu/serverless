@@ -171,7 +171,7 @@ export default {
           return new Response(await handleSubRequest(url.hostname), { headers: { 'Content-Type': 'text/html' } })
           break;
         default:
-          const targetReverseProxy = "budakbaong.my.id";
+          const targetReverseProxy = "kecleng.ggff.net";
           return await reverseProxy(request, targetReverseProxy);
       }
 
