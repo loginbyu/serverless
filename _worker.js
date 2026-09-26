@@ -4,8 +4,8 @@ const proxyListURL = 'https://raw.githubusercontent.com/loginbyu/Nautica/refs/he
 const namaWeb = 'Edisuryanto NETWORK'
 const linkTele = 'https://t.me/@Edisuryanto'
 const wildcards = [
-  'ava.game.naver.com',
-  'quiz.int.vidio.com'
+  'fidelity.udemy.com',
+  'inside165.udemy.com'
 ];
 // Global Variables
 let cachedProxyList = [];
