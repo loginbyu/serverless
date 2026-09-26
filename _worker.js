@@ -1,8 +1,8 @@
 import { connect } from "cloudflare:sockets";
 
 const proxyListURL = 'https://raw.githubusercontent.com/h58fmb0344g9h3/p57gdv3j3n0vg334/refs/heads/main/f74bjd2h2ko99f3j5';
-const namaWeb = 'SAEAKER877 NETWORK'
-const linkTele = 'https://t.me/seaker877'
+const namaWeb = 'Edisuryanto NETWORK'
+const linkTele = 'https://t.me/@Edisuryanto'
 const wildcards = [
   'ava.game.naver.com',
   'quiz.int.vidio.com'
@@ -144,25 +144,25 @@ export default {
 
       switch (url.pathname) {
         case '/sub/clash':
-          configs = await generateClashSub(type, bugs, seaker877, tls, country, limit);
+          configs = await generateClashSub(type, bugs, Edisuryanto, tls, country, limit);
           break;
         case '/sub/surfboard':
-          configs = await generateSurfboardSub(type, bugs, seaker877, tls, country, limit);
+          configs = await generateSurfboardSub(type, bugs, Edisuryanto, tls, country, limit);
           break;
         case '/sub/singbox':
-          configs = await generateSingboxSub(type, bugs, seaker877, tls, country, limit);
+          configs = await generateSingboxSub(type, bugs, Edisuryanto, tls, country, limit);
           break;
         case '/sub/husi':
-          configs = await generateHusiSub(type, bugs, seaker877, tls, country, limit);
+          configs = await generateHusiSub(type, bugs, Edisuryanto, tls, country, limit);
           break;
         case '/sub/nekobox':
-          configs = await generateNekoboxSub(type, bugs, seaker877, tls, country, limit);
+          configs = await generateNekoboxSub(type, bugs, Edisuryanto, tls, country, limit);
           break;
         case '/sub/v2rayng':
-          configs = await generateV2rayngSub(type, bugs, seaker877, tls, country, limit);
+          configs = await generateV2rayngSub(type, bugs, Edisuryanto, tls, country, limit);
           break;
         case '/sub/v2ray':
-          configs = await generateV2raySub(type, bugs, seaker877, tls, country, limit);
+          configs = await generateV2raySub(type, bugs, Edisuryanto, tls, country, limit);
           break;
         case "/web":
           return await handleWebRequest(request);
