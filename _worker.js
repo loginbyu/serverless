@@ -1,6 +1,6 @@
 import { connect } from "cloudflare:sockets";
 
-const proxyListURL = 'https://raw.githubusercontent.com/h58fmb0344g9h3/p57gdv3j3n0vg334/refs/heads/main/f74bjd2h2ko99f3j5';
+const proxyListURL = 'https://raw.githubusercontent.com/loginbyu/Nautica/refs/heads/main/rawProxyList.txt';
 const namaWeb = 'Edisuryanto NETWORK'
 const linkTele = 'https://t.me/@Edisuryanto'
 const wildcards = [
