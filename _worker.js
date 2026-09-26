@@ -137,7 +137,7 @@ export default {
       const tls = url.searchParams.get('tls') !== 'false';
       const wildcard = url.searchParams.get('wildcard') === 'true';
       const bugs = url.searchParams.get('bug') || seakerx;
-      const seaker877 = wildcard ? `${bugs}.${seakerx}` : seakerx;
+      const Edisuryanto = wildcard ? `${bugs}.${seakerx}` : seakerx;
       const country = url.searchParams.get('country');
       const limit = parseInt(url.searchParams.get('limit'), 10); // Ambil nilai limit
       let configs;
